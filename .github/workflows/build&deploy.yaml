@@ -61,6 +61,6 @@ jobs:
         path: build/web/index.html
     
     - name: Deploy
-      run: aws s3 sync ./flutter_2_aws/build/web/ s3://my-flutter-bucket
+      run: aws s3 sync /build/web/ s3://my-flutter-bucket
     
    
